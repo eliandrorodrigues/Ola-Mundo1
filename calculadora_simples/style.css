@@ -1,0 +1,41 @@
+.cabecalho{
+    height: 70px;
+    background-color: aqua;
+    margin-top: -20px;
+    text-align: center;
+    font: normal 12pt Arial;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+body{
+    background: url('./fundo.jpg');
+}
+
+section{
+    background: white;
+    padding: 15px;
+    margin: auto;
+    width: 500px;
+}
+
+.visor{
+    height: 80px;
+    width: 328px;
+    font: normal 50pt calibri;
+}
+
+.botoes input {
+    width: 80px;
+    height: 80px;
+    font: normal 50pt calibri;
+    background-color: black;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    font: normal 15pt calibri;
+    color: white;
+    font-style: italic;
+}
