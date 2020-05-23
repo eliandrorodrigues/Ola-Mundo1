@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Simples</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="calculadora.jpg" type="image/x-icon">
 </head>
 <body>
     <header class="cabecalho">
@@ -13,31 +14,31 @@
     <section>
         <form name="calc">
             <p>
-                <input type="text" name="visor" class="visor"><br>
+                <input type="text" id="visor" name="visor" class="visor"><br>
             </p>
             <p class="botoes">
-                <input type="button" value="9" onclick="botao(value)">
-                <input type="button" value="8" onclick="botao(value)">
-                <input type="button" value="7" onclick="botao(value)">
-                <input type="button" value="/" onclick="botao(value)">
+                <input type="button" value="9" onclick="botao(9)">
+                <input type="button" value="8" onclick="botao(8)">
+                <input type="button" value="7" onclick="botao(7)">
+                <input type="button" value="/" onclick="botao('/')">
             </p>
             <p class="botoes">
-                <input type="button" value="6" onclick="botao(value)">
-                <input type="button" value="5" onclick="botao(value)">
-                <input type="button" value="4" onclick="botao(value)">
-                <input type="button" value="*" onclick="botao(value)">    
+                <input type="button" value="6" onclick="botao(6)">
+                <input type="button" value="5" onclick="botao(5)">
+                <input type="button" value="4" onclick="botao(4)">
+                <input type="button" value="*" onclick="botao('*')">    
             </p>
             <p class="botoes">
-                <input type="button" value="3" onclick="botao(value)">
-                <input type="button" value="2" onclick="botao(value)">
-                <input type="button" value="1" onclick="botao(value)">
-                <input type="button" value="-" onclick="botao(value)">
+                <input type="button" value="3" onclick="botao(3)">
+                <input type="button" value="2" onclick="botao(2)">
+                <input type="button" value="1" onclick="botao(1)">
+                <input type="button" value="-" onclick="botao('-')">
             </p>
             <p class="botoes">
-                <input type="button" value="0" onclick="botao(value)">
-                <input type="button" value="+" onclick="botao(value)">
-                <input type="button" value="C" onclick="botao(value)">
-                <input type="button" value="=" onclick="botao(value)">
+                <input type="button" value="0" onclick="botao(0)">
+                <input type="button" value="+" onclick="botao('+')">
+                <input type="button" value="C" onclick="limpar()">
+                <input type="button" value="=" onclick="calcular()">
             </p>
         </form>
     </section>

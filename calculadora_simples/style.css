@@ -2,6 +2,8 @@
     height: 70px;
     background-color: aqua;
     margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
     text-align: center;
     font: normal 12pt Arial;
     padding-top: 5px;
@@ -10,19 +12,22 @@
 
 body{
     background: url('./fundo.jpg');
+    background-size: cover;
 }
 
 section{
     background: white;
     padding: 15px;
     margin: auto;
-    width: 500px;
+    width: 350px;
 }
 
 .visor{
     height: 80px;
     width: 328px;
     font: normal 50pt calibri;
+    color: tomato;
+    border-radius: 10px;
 }
 
 .botoes input {
@@ -31,6 +36,7 @@ section{
     font: normal 50pt calibri;
     background-color: black;
     color: white;
+    border-radius: 10px;
 }
 
 footer{
