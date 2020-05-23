@@ -11,33 +11,33 @@
         <h1>Calculadora</h1>
     </header>
     <section>
-        <form action="post" class="calc">
+        <form name="calc">
             <p>
-                <input type="text" name="txtnum" id="txtnum" class="visor"><br>
+                <input type="text" name="visor" class="visor"><br>
             </p>
             <p class="botoes">
-                <input type="button" value="9" name="num9" id="num9" onclick="preencher(value)">
-                <input type="button" value="8" name="num8" id="num8" onclick="preencher(value)">
-                <input type="button" value="7" name="num7" id="num8" onclick="preencher(value)">
-                <input type="button" value="/" name="divisao" onclick="preencher(value)">
+                <input type="button" value="9" onclick="botao(value)">
+                <input type="button" value="8" onclick="botao(value)">
+                <input type="button" value="7" onclick="botao(value)">
+                <input type="button" value="/" onclick="botao(value)">
             </p>
             <p class="botoes">
-                <input type="button" value="6" name="num6" id="num6" onclick="preencher(value)">
-                <input type="button" value="5" name="num5" id="num5" onclick="preencher(value)">
-                <input type="button" value="4" name="num4" id="num4" onclick="preencher(value)">
-                <input type="button" value="*" name="multiplicacao" onclick="preencher(value)">
+                <input type="button" value="6" onclick="botao(value)">
+                <input type="button" value="5" onclick="botao(value)">
+                <input type="button" value="4" onclick="botao(value)">
+                <input type="button" value="*" onclick="botao(value)">    
             </p>
             <p class="botoes">
-                <input type="button" value="3" name="num3" id="num3" onclick="preencher(value)">
-                <input type="button" value="2" name="num2" id="num2" onclick="preencher(value)">
-                <input type="button" value="1" name="num1" id="num1" onclick="preencher(value)">
-                <input type="button" value="-" name="subtrair" onclick="preencher(value)">
+                <input type="button" value="3" onclick="botao(value)">
+                <input type="button" value="2" onclick="botao(value)">
+                <input type="button" value="1" onclick="botao(value)">
+                <input type="button" value="-" onclick="botao(value)">
             </p>
             <p class="botoes">
-                <input type="button" value="0" name="num0" id="num0" onclick="preencher(value)">
-                <input type="button" value="C" name="limpar" id="limpar" onclick="limpar(value)">
-                <input type="button" value="=" name="igual" id="igual" onclick="calcular(value)">
-                <input type="button" value="+" name="somar" onclick="preencher(value)">
+                <input type="button" value="0" onclick="botao(value)">
+                <input type="button" value="+" onclick="botao(value)">
+                <input type="button" value="C" onclick="botao(value)">
+                <input type="button" value="=" onclick="botao(value)">
             </p>
         </form>
     </section>
